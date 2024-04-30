@@ -1,0 +1,198 @@
+
+/* Sidebar */
+.sidebar {
+  
+  background-color: #012840;; /* Sidebar background color */
+  color: #fff; /* Text color */
+  height: 100vh; /* Full height */
+  padding-top: 20px; /* Top padding */
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: #fff; /* Link text color */
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+/* Sidebar links on hover */
+.sidebar a:hover {
+  background-color: #555; /* Hover background color */
+}
+
+/* Main content area */
+.main-content {
+  padding: 20px; /* Padding for content */
+}
+
+
+.accent {
+  background-color: darkgray !important;
+}
+
+.darkslategray {
+    background-color: darkslategray !important;
+}
+
+.navbarblue {
+  color: #024873;
+}
+
+.colour {
+  color: #012840;
+}
+
+.bg-light {
+  --bs-bg-opacity: 1;
+  background-color: #024873!important;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: white;
+}
+
+.bs-light {
+  color: white !important;
+}
+
+body {
+  background-color: #012840;
+}
+
+canvas {
+  position: absolute;
+  top: calc(45px + env(safe-area-inset-top));
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  cursor: auto;
+  font-family: 'Icons';
+}
+
+.background-image {
+  background-image: url("/assets/sky.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.background-image-volgen{
+  background-image: url("/assets/dishfollow.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.bg-image-beeld{
+  background-image: url("/assets/beeldvorming.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.bg-image-com{
+  background-image: url("/assets/Satelliet\ Communicatie.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.bg-image-navi{
+  background-image: url("/assets/Satelliet\ Navigatie.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.bg-image-int{
+  background-image: url("/assets/Internet.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.bg-image-weer{
+  background-image: url("/assets/Space-Weather-Map\ .jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.container-fluid {
+  margin-top: 20px; 
+}
+
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.container-1 {
+  width: 400px; 
+  height: 300px; 
+  border: 2px solid #f20707; 
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(4, 19, 230, 0.1); 
+}
+
+
+.form-control {
+  background-color: #024873; 
+  color: white; 
+}
+
+
+
+.service-card {
+  background-color: #f8f9fa; /* Achtergrondkleur van de kaarten */
+  border: none; /* Geen rand om de kaarten */
+  border-radius: 10px; /* Afgeronde hoeken voor de kaarten */
+  padding: 20px; /* Binnenste vulling van de kaarten */
+}
+
+.service-title {
+  color: #333; /* Tekstkleur van de titels */
+}
+
+.service-description {
+  color: #666; /* Tekstkleur van de beschrijvingen */
+}
+
+
+
+/*6 diensten kaarten*/
+.service-card {
+  background-color: #024873 ;
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+
+.service-title {
+  color: white;
+}
+
+.service-description {
+  color: white;
+}
