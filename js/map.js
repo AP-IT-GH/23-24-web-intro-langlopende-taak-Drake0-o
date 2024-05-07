@@ -1,12 +1,19 @@
-// Initialiseer de kaart
-let map = L.map('map').setView([50.8503, 4.3517], 10); // Coördinaten van Brussel, zoomniveau 10
+/* In dit script plaats je de code om de kaart in de id apMap te tekenen, zodat de AP-Hogeschool met adres Ellermanstraat 33 gecentreerd staat.  
+Gebruik hiervoor de documentatie op https://leafletjs.com/ 
+*/
 
-// Voeg een OpenStreetMap-tilelaag toe aan de kaart
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+let map = L.map('apMap').setView([51.23009, 4.41616], 17);
+
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 
-// Voeg een marker toe aan de kaart op de locatie van Satecom HQ
-L.marker([50.8503, 4.3517]).addTo(map)
-    .bindPopup('Satecom HQ')
-    .openPopup();
+
+// bepaal de rechthoek rondom het gebouw van AP
+let bounds = [[51.23041, 4.4155], [51.22991, 4.41675]];
+// kleur de rechthoek in met de rode AP-kleur
+L.rectangle(bounds, {color: "#e60005", weight: 1}).addTo(map);
+// plaats een marker met als tekst "AP-Hogeschool" en eronder "Ellermanstraat 33"
+let apMarker = L.marker([51.23009, 4.41616]).addTo(map);
+apMarker.bindPopup("<b>AP-Hogeschool</b><br>Ellermanstraat 33").openPopup();

@@ -1,4 +1,9 @@
-#map {
+#apMap {
     height: 500px; /* of een andere hoogte naar wens */
     width: 100%; /* Volledige breedte van de container */
+}
+
+#otherMap {
+    height: 500px;
+    width: 100%;
 }

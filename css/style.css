@@ -99,7 +99,7 @@ canvas {
 }
 
 .bg-image-com{
-  background-image: url("/assets/Satelliet\ Communicatie.jpg");
+  background-image: url("/assets/satellietcommunicatie.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
@@ -108,7 +108,7 @@ canvas {
 }
 
 .bg-image-navi{
-  background-image: url("/assets/Satelliet\ Navigatie.jpg");
+  background-image: url("/assets/satellietnavigatie.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
@@ -117,7 +117,7 @@ canvas {
 }
 
 .bg-image-int{
-  background-image: url("/assets/Internet.jpg");
+  background-image: url("/assets/internet.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
@@ -126,7 +126,7 @@ canvas {
 }
 
 .bg-image-weer{
-  background-image: url("/assets/Space-Weather-Map\ .jpg");
+  background-image: url("/assets/spaceweather.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
